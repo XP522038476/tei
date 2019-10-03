@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="thistledownflight">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>在唐巡礼記</title>
+            <author>
+               <name>智證大師-円珍</name>
+            </author>
+            <respStmt>
+               <resp>著者</resp>
+               <name>円珍</name>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher>国立国会図書館</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine>東京都千代田区永田町1丁目10-1</addrLine>
+               </address>
+            </pubPlace>
+            <date>2004</date>
+            <availability>
+               <p>日本で唯一の国立図書館。国会議員のための調査研究を行うほか、納本制度により日本国内の出版物を収集し、その目録（全国書誌）を作成し、資料を保存する役割を担っている。このため、資料の利用は、申込に応じて書庫から出す閉架式が中心。満18歳以上であれば利用できる。</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="image" anchored="true">
+               <witDetail wit="#行歴抄" target="#行歴抄" place="apparatus">
+                  <figure>
+                     <graphic url="images/行歴抄/a1.png"/>
+                  </figure>
+                  <figure>
+                     <graphic url="images/行歴抄/a2.png"/>
+                  </figure>
+                  <figure>
+                     <graphic url="images/行歴抄/a3.png"/>
+                  </figure>
+                  <figure>
+                     <graphic url="images/行歴抄/a4.png"/>
+                  </figure>
+                  <figure>
+                     <graphic url="images/行歴抄/a5.png"/>
+                  </figure>
+               </witDetail>
+               <witDetail wit="#在唐日録" target="#在唐日録" place="apparatus">
+                  <figure>
+                     <graphic url="images/在唐日録/z1.png"/>
+                  </figure>
+                  <figure>
+                     <graphic url="images/在唐日録/z2.png"/>
+                  </figure>
+               </witDetail>
+               <witDetail wit="#延暦寺座主円珍伝" target="#延暦寺座主円珍伝" place="apparatus">
+                  <figure>
+                     <graphic url="images/延暦寺座主円珍伝/y1.png"/>
+                  </figure>
+               </witDetail>
+            </note>
+            <note anchored="true">ここに三つ文献がある。</note>
+            <note anchored="true">
+               <p>『在唐巡礼記』に記載された重点日記の抄文『行歴抄』（『行歴記』ともいう）。</p>
+               <p>『在唐巡礼記』から一部の原著内容を使った『在唐日録』。</p>
+               <p>円珍の友人の三善清行に託し延喜二年（902年）に完成させた『延暦寺座主円珍伝』（『智証大師伝』ともいう）。この伝記は一部の『在唐巡礼記』の内容を引用した。</p>
+            </note>
+
+            <note anchored="true">資料は国立国会図書館からいただきます。<ref
+               n="https://www.ndl.go.jp">"国立国会図書館"</ref>
+            </note>
+
+         </notesStmt>
+
+         <sourceDesc>
+            <p>円珍が唐にいるころ日記を書く習慣があった。編纂を経て『在唐巡礼記』（『在唐日記』ともいう）を作成した。今は円珍の入唐行歴についてはもと『在唐巡礼記』五巻があったというが伝存していない。残った二つ抄本『行歴抄』、『在唐日録』と円珍伝記『延暦寺座主円珍伝』しかない。</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>DTD constructed from TEI poetry base with tagsets for linking, figures, analysis,
+               transcr, textcrit.</p>
+         </editorialDecl>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">English</language>
+         </langUsage>
+
+
+      </profileDesc>
+   </teiHeader>
+
+
+   <text>
+      <front>
+         <div>
+            <listWit>
+               <witness xml:id="行歴抄">『在唐巡礼記』に記載された重点日記の抄文『行歴抄』</witness>
+               <witness xml:id="在唐日録">『在唐巡礼記』から一部の原著内容を使った『在唐日録』</witness>
+               <witness xml:id="延暦寺座主円珍伝">円珍伝記『延暦寺座主円珍伝』</witness>
+            </listWit>
+         </div>
+      </front>
+
+
+
+
+
+      <body>
+         <head>
+            <title>
+               <app>
+                  <rdg wit="#行歴抄">『行歴抄』
+                     <note anchored="true">この版本は重点日記の抄文である。</note>
+                  </rdg>
+                  <rdg wit="#在唐日録">『在唐日録』</rdg>
+                  <rdg wit="#延暦寺座主円珍伝">『延暦寺座主円珍伝』
+                     <note anchored="true">この版本は前より二つ抄本が違い、円珍の伝記である。</note>
+                  </rdg>
+               </app>
+               <milestone unit="stanza"/>
+            </title>
+         </head>
+
+         <l n="1">
+            <app>
+               <rdg wit="#行歴抄">大中八年二月初間。留學遠載出，剡縣去。<note anchored="true">セム</note>
+                  此越州管，去唐興縣一百八十里。臨發之時。他說道<note anchored="true">イフナラタ</note>：
+                  “我未曾聽法華經，所以今夏欲去湖州策闍梨處聽讀。若要聽無？”珍對他曰：“遠來求法，要在聽讀。而今山中應無講席，闍梨若要聽法，珍相共隋喜。”
+                  又珍向道：“聞道越州良諝座主講說如法，到彼聽讀不得？”......彼諝座主發願講「法華經」遍，每年講過兩三遍。</rdg>
+               <rdg wit="#在唐日録"></rdg>
+               <rdg wit="#延暦寺座主円珍伝"></rdg>
+            </app>
+         </l>
+
+         <l n="2">
+            <app>
+               <rdg wit="#行歴抄">八日<note anchored="true">大唐大中八年二月八日</note>黃昏，在國清，為上禪林，洗浴。時祈求大師加被。
+                  其夜夢，冷座主下來國清，迎取圓珍，將去上方。更有維摩大士，作頭陀像，擔負圓珍，隋路入山。
+                  <note anchored="true">冷座是當今禪林云々「云々二字唐房行履錄所引，在唐日錄無」主持大師遺跡者也</note></rdg>
+               <rdg wit="#在唐日録">大唐大中八年二月八日黃昏，在清國，為上禪林洗浴。時祈求大師加被。其夜夢，冷座主下乘國清，迎取圓珍，對去上方。
+                  更有維摩大士，作領陀像，擔負圓珍，隋路入山。<note anchored="true">禪林是大師遺跡，冷座乃當時主持也</note>
+               </rdg>
+               <rdg wit="#延暦寺座主円珍伝"></rdg>
+            </app>
+         </l>
+
+         <l n="3">
+            <app>
+               <rdg wit="#行歴抄">九日<note anchored="true">大唐大中八年二月九日</note>齋後，珍領徒入山。國清東山名靈芝峯，嚴峻難行，
+                  宛如延暦葛阪。行十八許里，山路地黃<note anchored="true">黃下原本有色子而削之</note>，同一金色。行盡此地，路邊有墳，右題“晔禪師墳”，左無其題。相傳云：“第六祖荊溪大師墳。”......有其因緣，云云。
+               </rdg>
+               <rdg wit="#在唐日録">九日<note anchored="true">大唐大中八年二月九日</note>齋後，珍領徒入山。國清東北名靈芝峯，嚴峻難行，
+                  宛如延暦葛坂。行十八許里，山路地黃，一同金色。行盡此地，路邊有墳，左無其題。相傳云：“第六祖荊溪大師墳。”......有其因緣，云云。</rdg>
+               <rdg wit="#延暦寺座主円珍伝"></rdg>
+            </app>
+         </l>
+
+         <l n="4">
+            <app>
+               <rdg wit="#行歴抄">三月十七日<note anchored="true">大唐大中八年二月十七日、ここに誤があると思う</note>洗浴了，方欲登華頂來。夜有夢，菩薩僧：來取屈。</rdg>  
+               <rdg wit="#在唐日録">二月十七日<note anchored="true">大唐大中八年二月十七日</note>洗浴了，方欲登華頂來。夜有夢，菩薩僧：來取屈。</rdg>
+               <rdg wit="#延暦寺座主円珍伝"></rdg>
+            </app>
+         </l>
+         
+         <l n="5">
+            <app>
+               <rdg wit="#行歴抄">十八日<note anchored="true">大唐大中八年二月十八日</note>冷座主為導首，入山。......不可具記。</rdg>
+               <rdg wit="#在唐日録">十八日<note anchored="true">大唐大中八年二月十八日</note>早旦冷座主為導首，入山。......不可具記。</rdg>
+               <rdg wit="#延暦寺座主円珍伝"></rdg>
+            </app>
+         </l>
+         
+         <l n="99">
+            <app>
+               <rdg wit="#行歴抄"></rdg>
+               <rdg wit="#在唐日録"></rdg>
+               <rdg wit="#延暦寺座主円珍伝"></rdg>
+            </app>
+         </l>
+
+      </body>
+
+   </text>
+</TEI>
